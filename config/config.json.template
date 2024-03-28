@@ -1,0 +1,9 @@
+// 使用前请复制本文件，并改名为config.json，同时移除注释部分
+{
+  // 基础模型服务类别：这里目前只有一种实现，无需修改
+  "client_type": "localai",
+  // 服务接口URL
+  "client_url": "http://ip:port/v1/audio/transcriptions",
+  // 模型名称：对应服务接口中的模型
+  "model_name": "llm-name"
+}
