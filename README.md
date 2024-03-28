@@ -26,7 +26,7 @@
 
 3.运行`pip install -r requirements.txt`安装依赖
 
-4.参照`config/config-template.json`模版的说明，修改源代码目录下`config/config.json`文件，将`client_url`和`model_name`修改为上述实际的接口地址和模型名称
+4.参照`config/config.json.template`模版的说明，修改源代码目录下`config/config.json`文件，将`client_url`和`model_name`修改为上述实际的接口地址和模型名称
 
 5.运行`pyinstaller main.spec`可打包为Windows下的EXE可执行程序，`main_mac.spec`对应MacOS下可执行程序
 
