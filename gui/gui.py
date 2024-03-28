@@ -8,7 +8,7 @@ from client.client import Client
 class _Gui(object):
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title('TransA1')
+        self.root.title('JustForVoiceToText')
 
         self.text_area = tk.Text(self.root, height=30, width=100)
         self.text_area.pack(expand=True, fill=tk.BOTH)
