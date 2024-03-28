@@ -1,7 +1,5 @@
 {
   "client_type": "localai",
-  "client_url": "http://ip:port/v1/audio/transcriptions",
-  // localAI服务地址
-  "model_name": "whisper-llm"
-  // 模型名称
+  "client_url": "http://127.0.0.1:8080/v1/audio/transcriptions",
+  "model_name": "whisper-base"
 }
