@@ -32,4 +32,8 @@
 
 ### 已知问题
 
-MacOS下界面显示异常，后续修复。
+#### MacOS下界面显示异常
+
+解决方案：\
+1.升级Python到3.10版本\
+2.`brew install python-tk@3.10`
